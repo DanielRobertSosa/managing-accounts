@@ -109,3 +109,15 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 <img width="1662" height="590" alt="image" src="https://github.com/user-attachments/assets/b4a991af-58bc-4b09-ad3e-6801140c2957" />
 
 ---
+
+### 🔹 Navigate to Account Lockout Policy  
+
+- Open **gpmc.msc** on DC-1  
+- Edit **Default Domain Policy** under *dansosa.local*  
+- Go to: `Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Account Lockout Policy`  
+- Modify lockout threshold, duration, and reset counter  
+
+<img width="1664" height="634" alt="image" src="https://github.com/user-attachments/assets/29467807-288f-486c-9368-3b0f7503105e" />
+
+---
+
