@@ -96,3 +96,16 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 
 
 ---
+
+### 🔹 Edit Group Policy  
+
+- Open **Group Policy Management Console (gpmc.msc)** on DC-1.  
+- Expand **Forest → Domains → dansosa.local → Group Policy Objects**.  
+- Right-click **Default Domain Policy** → select **Edit**.  
+- Navigate to:  
+  `Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Account Lockout Policy`  
+- Configure account lockout settings to prevent repeated failed login attempts.  
+
+<img width="1662" height="590" alt="image" src="https://github.com/user-attachments/assets/b4a991af-58bc-4b09-ad3e-6801140c2957" />
+
+---
