@@ -49,3 +49,12 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 - Learned to **document technical steps clearly**, a vital skill for IT support and system administration.  
 
 ---
+<h2>🖥️ Logging into Client Machine</h2>
+
+- Connected to **Client 1** (Windows 10 VM) in Azure using **Remote Desktop** and the VM’s public IP.  
+- Used a **test user account** previously created in Active Directory.  
+- Intentionally attempted multiple failed logins to trigger the **Account Lockout Policy** configured via Group Policy.  
+- This verified that failed login attempts are enforced consistently across the network environment, not just on the Domain Controller.
+  
+<img width="1893" height="814" alt="image" src="https://github.com/user-attachments/assets/c8ae8841-da21-49b1-b36e-befe0ef7aa25" />
+
