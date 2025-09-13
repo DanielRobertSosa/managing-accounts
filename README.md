@@ -56,5 +56,40 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 - Intentionally attempted multiple failed logins to trigger the **Account Lockout Policy** configured via Group Policy.  
 - This verified that failed login attempts are enforced consistently across the network environment, not just on the Domain Controller.
   
-<img width="1893" height="814" alt="image" src="https://github.com/user-attachments/assets/c8ae8841-da21-49b1-b36e-befe0ef7aa25" />
+<img src="https://github.com/user-attachments/assets/c8ae8841-da21-49b1-b36e-befe0ef7aa25" width="900" alt="First Screenshot">
+<br><br>
+<img src="https://github.com/user-attachments/assets/8cf959cd-7729-4045-8225-bcbeb8c7d492" width="500" alt="Second Screenshot">
 
+---
+
+### 🔹 Next Steps in Your Lab  
+
+- **Log into the Domain Controller (DC-1) in Azure VM**  
+  Use Remote Desktop to access your Domain Controller VM and log in with your Domain Admin credentials.  
+
+- **Open Group Policy Management Console (GPMC)**  
+  Press `Win + R`, type `gpmc.msc`, and hit Enter to launch the console.  
+
+- **Edit the Default Domain Policy**  
+  Navigate to *Computer Configuration → Windows Settings → Security Settings → Account Policies → Account Lockout Policy*.
+
+<img width="1888" height="885" alt="image" src="https://github.com/user-attachments/assets/41c7674d-ab96-4d68-b0dd-cb23aeda174e" />
+
+---
+
+### 🔹 Troubleshooting: `gpmc.msc` Not Found  
+
+- **How to Recognize It**  
+  When trying to run `gpmc.msc` on your Domain Controller, Windows says the command cannot be found.  
+
+- **What to Do**  
+  - Log into the **Domain Controller (DC-1)**, not the client machine.  
+  - Open **Server Manager → Manage → Add Roles and Features → Features**.  
+  - Install **Group Policy Management**.  
+  - Once installed, rerun `gpmc.msc` to open the console.  
+
+<img width="1629" height="708" alt="Screenshot 3" src="https://github.com/user-attachments/assets/196063a3-0558-4467-a2ff-4f61d9ab224b" />
+<br><br>
+<img width="1385" height="672" alt="Screenshot 4" src="https://github.com/user-attachments/assets/0887661f-da0c-44af-a12d-86490bb4f5e4" />
+
+---
