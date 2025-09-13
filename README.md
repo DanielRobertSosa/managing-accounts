@@ -1,7 +1,8 @@
 # 🛡️ Group Policy & Managing Accounts (Unlocking/Resetting)
 
 <p align="center">
-<img src="https://i.imgur.com/2ik4QEl.png" height="80%" width="80%" alt="Active Directory Group Policy"/>
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ca586b8b-0318-457f-803c-30a7d1136754" />
+/>
 </p>
 
 <h1>🔑 Group Policy – Account Management and Troubleshooting</h1>
@@ -134,4 +135,19 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 - Open **Command Prompt** on DC-1  
 - Run the command:  
 <img width="1016" height="564" alt="image" src="https://github.com/user-attachments/assets/e3d8f19b-9299-4680-9362-9f0cb02aeff9" />
+---
+
+### ✅ Conclusion & Learning Outcomes  
+
+Through this project, I simulated a **real-world IT support scenario** where a user was locked out of their account.  
+By configuring the **Account Lockout Policy** in Group Policy, I learned how to:  
+
+- Identify and troubleshoot account lockouts  
+- Apply domain-wide security policies through **Default Domain Policy**  
+- Use tools like **GPMC** and **Command Prompt (gpupdate /force)** to enforce settings  
+- Strengthen defenses against **unauthorized access and brute-force attacks**  
+
+This lab improved both my **technical troubleshooting skills** and my ability to **document and explain IT processes** — essential for helpdesk and IT support roles.  
+
+---
 
