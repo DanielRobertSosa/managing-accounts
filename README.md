@@ -121,3 +121,9 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 
 ---
 
+<img width="805" height="536" alt="image" src="https://github.com/user-attachments/assets/2c93c918-3471-420a-b2b8-f6d18f889c2d" />
+<br><br>
+<img width="1063" height="556" alt="image" src="https://github.com/user-attachments/assets/b7935932-601b-4a49-9e02-5c0f151b9a61" />
+<br><br>
+<img width="973" height="628" alt="image" src="https://github.com/user-attachments/assets/86929c47-9915-4bfd-a75b-ceb7afd8a77d" />
+
