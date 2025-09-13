@@ -127,3 +127,11 @@ This lab demonstrates how to configure account lockout policies, manage Active D
 <br><br>
 <img width="973" height="628" alt="image" src="https://github.com/user-attachments/assets/86929c47-9915-4bfd-a75b-ceb7afd8a77d" />
 
+---
+
+### 🔹 Apply and Verify Group Policy  
+
+- Open **Command Prompt** on DC-1  
+- Run the command:  
+<img width="1016" height="564" alt="image" src="https://github.com/user-attachments/assets/e3d8f19b-9299-4680-9362-9f0cb02aeff9" />
+
